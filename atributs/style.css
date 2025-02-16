@@ -1,0 +1,218 @@
+:root {
+	--green: #5db996;
+	--blackgreen: #118b50;
+	--whitegreen: #e3f0af;
+	--gray: #fbf6e9;
+}
+
+body, html {
+	font-family: "Nunito", serif;
+	font-size: 35px;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, p {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	margin-top: 65px;
+}
+
+.container {
+	max-width: 1290px;
+	margin: 0px auto;
+}
+
+.header-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	margin-right: 50px;
+	color: black;
+	transition: all .4s ease;
+	display: inline-block;
+}
+
+nav a:hover {
+	color: var(--green);
+	transform: scale(1.1);
+}
+
+.header-content a: last-of-type:hover {
+	color: var(--green);
+}
+
+
+
+
+main {
+	margin-top: 50px;
+}
+
+.main-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-content h4 {
+	font-size: 60px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	font-weight: 650;
+	margin-bottom: 20px;
+}
+
+.main-content img {
+	border-radius: 90px;
+}
+
+
+.bg-slide2 {
+	background-color:var(--green);
+	margin-top: 75px;
+}
+
+.slide2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.slide2 h4 {
+	color: white;
+	font-size: 60px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	font-weight: 650;
+	margin-bottom: 46px;
+	margin-left: 90px;
+}
+
+.slide2 ul {
+	color: white;
+	margin-bottom: 46px;
+	margin-left: 90
+}
+
+.slide2 img {
+	margin-top: 75px;
+	margin-bottom: 75px;
+	object-fit: cover;
+	transition: all 0.3s ease;
+	border-radius: 60px;
+	display: inline-block;
+}
+
+slide2 img:hover {
+	transform: scale(1.2);
+}
+
+.bg-slide3 {
+	height: 810px;
+	background-image: url('Mountains_FV.png');
+	background-size: cover;
+	background-position: center;
+	padding-top: 150px;
+}
+
+.slide3 p {
+	margin-left: 950px;
+	padding: 20px;
+	background-color: var(--gray);
+	border-radius: 60px;
+}
+
+.b {
+	font-weight: 900;
+}
+
+
+
+
+.bg-slide4 {
+	height: 910px;
+	background-image: url('palatka.jpg');
+	background-size: cover;
+	background-position: center;
+	padding-top: 40px;
+}
+
+.slide4 div{
+	margin-right: 720px;
+}
+
+.s4b {
+	background-color: var(--whitegreen);
+	border-radius: 60px;
+}
+
+.s4b p {
+	font-weight: 900;
+	padding: 20px;
+}
+
+
+
+
+
+.bg-fs {
+	background-color: #65AA90;
+	height: 920px;
+}
+
+.fslide {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.fs-p {
+	border-radius: 60px;
+	margin-top: 146px;
+	border-radius: 60px;	
+}
+
+.fs-text {
+	margin-left: 45px;
+	color: white;
+}
+
+.fs-text  h4 {
+	font-size: 60px;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	font-weight: 650;
+	margin-bottom: 20px;
+}
+
+.fs-text img {
+	margin-top: 25px;
+}
+
+.mailtel {
+	margin-left: 10px;
+	text-decoration: none;
+	color: white;
+	transition: all .4s ease;
+	display: inline-block	
+}
+
+.mailtel:hover {
+	color: var(black);
+	transform: scale(1.1);
+}
